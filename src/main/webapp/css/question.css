@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+#question{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30%;
+}
+
+#answer{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.answerItem{
+	margin: 0 auto;
+	display: block;
+}
+
+button{
+	background: white;
+}
+
+#countBadAnsw{
+	width: 200px;
+	margin-right: 10%;
+	float: right;
+	margin-top: 50px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+
+#countBadAnsw p{
+	margin: 0 auto;
+	margin-left: 10px;
+}
+
+#countBadAnsw, #question{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+	margin: 0 auto;
+	background-image: url("../image/background.jpg");
+}
